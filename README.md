@@ -1,12 +1,12 @@
 # 🔇 Active Window Muter 
 
-- A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
+- A simple, low-overhead Python script to toggle the audio of your currently active window (game, browser, media player, etc).
 
 - The script is optimized for gaming and is anti-cheat safe.
 
-- It features a customizable UI that doesn't steal window focus, even from fullscreen/borderless applications. 
-
-*Note: This is not a standalone app; you need to set up a trigger method (even with the .exe version).*
+- It features a customizable UI that doesn't steal window focus, even from fullscreen/borderless applications.
+  
+- Use in conjunction with a keyboard remapping utility to trigger the script (see below)
 
 https://github.com/user-attachments/assets/ab2ba5a7-9629-411a-9a39-7db8a042f298
 
