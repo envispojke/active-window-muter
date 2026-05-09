@@ -2,11 +2,11 @@
 
 https://github.com/user-attachments/assets/ab2ba5a7-9629-411a-9a39-7db8a042f298
 
-A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
+- A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
 
-The script is optimized for gaming and is anti-cheat safe (when used per my recommendations below).
+- The script is optimized for gaming and is anti-cheat safe (when used per my recommendations below).
 
-It features a customizable popup UI that doesn't steal window focus, even from fullscreen/borderless applications. 
+- It features a customizable popup UI that doesn't steal window focus, even from fullscreen/borderless applications. 
 
 *Note: This is not a standalone app; you need to set up a trigger method (even with the .exe version).*
 
@@ -24,8 +24,7 @@ Sensitive game anti-cheats (like Vanguard, EAC, ACE, etc.) may flag processes li
 
 The danger lies in persistent background scripts that's constantly loaded in memory: especially if they listen for keyboard/mouse inputs. While this *is* a Python script, it doesn't listen for inputs, and it doesn't run in the background: when activated it finds the currently active window, makes changes to the Windows Core Audio API, displays the overlay, then kills its own process, all in a few seconds. 
 
-While I can't guarantee anything, no anti-cheat worth its salt should mark this as suspicious; briefly spinning up the Python executable is something that a significant portion of PCs do every once in a while.
-
+While I can't guarantee anything, no anti-cheat worth its salt should mark this as suspicious; briefly spinning up the Python executable is something that a significant portion of PCs do.
 
 ## 📥 Installation
 
@@ -42,9 +41,10 @@ While I can't guarantee anything, no anti-cheat worth its salt should mark this 
 ### Method A: Microsoft PowerToys (recommended)
 PowerToys is an open-source toolset maintained by Microsoft. It's Keyboard Manager module allows you to remap keys with a simple interface. Or like in this case, launch programs using custom shortcuts.
 
-1. Open **PowerToys** → **Keyboard Manager** → **Remap a shortcut**
-2. Click **Add shortcut remapping**
-3. Configure the shortcut using these settings:
+1. Install PowerToys: https://learn.microsoft.com/en-us/windows/powertoys/
+2. Open **PowerToys** → **Keyboard Manager** → **Remap a shortcut**
+3. Click **Add shortcut remapping**
+4. Configure the shortcut using these settings:
 
 | Setting | Value |
 |---|---|
