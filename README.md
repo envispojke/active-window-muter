@@ -2,7 +2,7 @@
 
 - A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
 
-- The script is optimized for gaming and is anti-cheat safe (when used per my recommendations below).
+- The script is optimized for gaming and is anti-cheat safe.
 
 - It features a customizable UI that doesn't steal window focus, even from fullscreen/borderless applications. 
 
@@ -27,8 +27,6 @@ While I can't guarantee anything, no anti-cheat worth its salt should mark this 
 
 ## 📥 Installation
 
-*Note: Running this as a Python script is the recommended method, but if you don't want to install it, I did include an executable version: scroll down to the end for details*
-
 ### Prerequisites
 - Python 3.8+ added to PATH.
 
@@ -37,8 +35,9 @@ While I can't guarantee anything, no anti-cheat worth its salt should mark this 
    2. Run install_requirements.bat
    3. Continue with your chosen trigger method
 
-### Method A: Microsoft PowerToys (recommended)
-PowerToys is an open-source toolset maintained by Microsoft. It's Keyboard Manager module allows you to remap keys with a simple interface. Or like in this case, launch programs using custom shortcuts.
+### Trigger Method A: Microsoft PowerToys (recommended)
+- PowerToys is an open-source toolset maintained by Microsoft.
+- It's Keyboard Manager module allows you to remap keys with a simple interface. Or like in this case, launch programs using custom shortcuts.
 
 1. Install PowerToys: https://learn.microsoft.com/en-us/windows/powertoys/
 2. Open **PowerToys** → **Keyboard Manager** → **Remap a shortcut**
@@ -84,9 +83,3 @@ Open active-window-muter.pyw in Notepad (or any text editor). At the top is a CO
 ### Known Quirks
 - The muted application will **not** show as muted in the Volume Mixer.
 - Windows does not add an application to the Volume Mixer until that application has already played sound. In that case, you'll see a "No Audio Session" warning. 
-
-### EXECUTABLE VERSION
-- The pre-compiled version should be considered experimental. If you run into issues, try the Python method before asking for help.
-- It is located in the /executable folder. 
-- It takes an extra ~0.5s to toggle mute.
-- You can configure the design parameters by editing config.json in the same folder.
