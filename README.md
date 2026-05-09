@@ -1,6 +1,6 @@
 # 🔇 Active Window Muter 
 
-https://github.com/user-attachments/assets/10870faf-9ec4-4a28-a263-757feb2ef8e0
+https://github.com/user-attachments/assets/15508b39-88f8-496f-b064-81e7ea926e4c
 
 A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
 
