@@ -1,23 +1,22 @@
 # 🔇 Active Window Muter 
 
-https://github.com/user-attachments/assets/ab2ba5a7-9629-411a-9a39-7db8a042f298
-
 - A simple, low-overhead utility to toggle the audio of your currently active window (game, browser, media player, etc). 
 
 - The script is optimized for gaming and is anti-cheat safe (when used per my recommendations below).
 
-- It features a customizable popup UI that doesn't steal window focus, even from fullscreen/borderless applications. 
+- It features a customizable UI that doesn't steal window focus, even from fullscreen/borderless applications. 
 
 *Note: This is not a standalone app; you need to set up a trigger method (even with the .exe version).*
 
-### 🛡️ Why use this over other options?
-Most alternatives I've combed through are unneccessarily complex & performance heavy, aren't anti-cheat safe, and don't offer a configurable UI.
+https://github.com/user-attachments/assets/ab2ba5a7-9629-411a-9a39-7db8a042f298
 
+### 🛡️ Why use this over other options?
 This script is intentionally minimal:
 
-- No suspicious or costly background process
+- Only 125 lines of code
+- No suspicious or costly background process, no keyboard hooks
 - Reasonably fast execution (~1s)
-- Customizable popup UI that doesn't interrupt gaming
+- Customizable popup that doesn't interrupt gaming
 
 ### Python, AutoHotkey and Anti-Cheat Software
 Sensitive game anti-cheats (like Vanguard, EAC, ACE, etc.) may flag processes like Python and AutoHotkey (AHK) as suspicious. This can prevent you from starting up the game or even lead to a temporary ban (happened to me in Delta Force). This is because they are powerful enough to create macros that give gameplay advantages (e.g. recoil prevention), possibly even full-on cheats (e.g. aimbot). 
